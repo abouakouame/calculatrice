@@ -1,0 +1,49 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../image/download.jfif);
+  }
+  .container {
+    margin: 0;
+    background-color: hotpink;
+  }
+  
+  #display-box {
+    width: 100px;
+    border-radius: 10px;
+    padding-left: 13px;
+  }
+  
+  input {
+    font-size: 30px;
+    width: 65px;
+    height: 65px;
+    margin: 5px;
+    border: 1px solid #a23bc2;
+    border-radius: 50%;
+    background: rgb(230, 236, 240);
+    outline: none;
+  }
+  
+  .calculator {
+    background: rgb(220, 220, 220);
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+  }
+  
+  input {
+    box-shadow: 5px 5px 5px grey, -5px -5px 5px white;
+  }
+  
+  input:hover {
+    box-shadow: inset 5px 5px 5px grey, inset -5px -5px 5px white;
+  }
+  
+  #display-box {
+    box-shadow: inset 5px 5px 5px grey, inset -5px -5px 5px white;
+  }
+  
+  .calculator {
+    box-shadow: 5px 5px 5px grey, -5px -5px 5px grey;
+  }
+  
